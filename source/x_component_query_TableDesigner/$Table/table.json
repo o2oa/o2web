@@ -1,0 +1,15 @@
+{
+  "id": "",
+  "name": "newTable",
+  "alias": "",
+  "description": "",
+  "query": "",
+  "readPersonList": [],
+  "readUnitList": [],
+  "editPersonList": [],
+  "editUnitList": [],
+  "status": "draft",
+  "draftData": {
+    "fieldList": []
+  }
+}

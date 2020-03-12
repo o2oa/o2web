@@ -1,0 +1,42 @@
+{
+  "getQuery": {"uri": "/jaxrs/query/{flag}"},
+  "listQuery": {"uri": "/jaxrs/query/list"},
+  "listQueryByKey": {"uri": "/jaxrs/query/list/key/{key}"},
+
+  "getStatById": {"uri": "/jaxrs/stat/{id}"},
+  "getStat": {"uri": "/jaxrs/stat/flag/{flag}/query/{queryFlag}"},
+  "listStat": {"uri": "/jaxrs/stat/list/query/{queryFlag}"},
+  "loadStatById": {"uri": "/jaxrs/stat/{id}/execute", "method": "PUT"},
+  "loadStat": {"uri": "/jaxrs/stat/flag/{flag}/query/{queryFlag}/execute", "method": "PUT"},
+
+  "getViewById": {"uri": "/jaxrs/view/{id}"},
+  "getView": {"uri": "/jaxrs/view/flag/{flag}/query/{queryFlag}"},
+  "listView": {"uri": "/jaxrs/view/list/query/{queryFlag}"},
+  "loadViewById": {"uri": "/jaxrs/view/{id}/execute", "method": "PUT"},
+  "loadView": {"uri": "/jaxrs/view/flag/{flag}/query/{queryFlag}/execute", "method": "PUT"},
+  "bundleView": {"uri": "/jaxrs/view/{id}/bundle", "method": "PUT"},
+
+  "exportViewWithQuery": {"uri": "/jaxrs/view/flag/{flag}/query/{queryFlag}/excel", "method": "PUT"},
+  "exportView": {"uri": "/jaxrs/view/{id}/excel", "method": "PUT"},
+  "getViewExcel": {"uri": "/jaxrs/view/excel/result/{flag}"},
+
+  "search": {"uri": "/jaxrs/segment/key/{key}"},
+  "listSearchEntry": {"uri": "/jaxrs/segment/list/entry", "method": "POST"},
+
+  "executeStatement" : { "uri": "/jaxrs/statement/{flag}/execute/page/{page}/size/{size}", "method": "POST" },
+
+  "listRowNext" : { "uri" : "/jaxrs/table/list/{tableFlag}/row/{id}/next/{count}" },
+  "listRowPrev" : { "uri" : "/jaxrs/table/list/{tableFlag}/row/{id}/prev/{count}" },
+  "listRowSelectWhere" : { "uri" : "/jaxrs/table/list/{tableFlag}/row/select/where/{where}" }, //通过where 获取表中的数据,格式为jpql语法,o.name='zhangsan'
+  "listRowCountWhere" : { "uri" : "/jaxrs/table/{tableFlag}/row/count/where/{where}" },
+  "getRow" : { "uri": "/jaxrs/table/{tableFlag}/row/{id}" }, //获取表中某一行数据
+  "updateRow":{ "uri": "/jaxrs/table/{tableFlag}/row/{id}", "method": "PUT" }, //更新指定表中指定行数据.
+  "insertRow":{ "uri": "/jaxrs/table/{tableFlag}/row", "method": "POST" },//插入一行
+  "countRowWhere" : { "uri": "/jaxrs/table/{tableFlag}/row/count/where/{where}"},//通过where 统计数量
+  "deleteRow" : { "uri": "/jaxrs/table/{tableFlag}/row/{id}", "method": "DELETE" }, //更新指定表中指定行数据.
+  "deleteAllRow" : { "uri": "/jaxrs/table/{tableFlag}/row/delete/all", "method": "DELETE"}, //通过where 统计数量
+
+  "calculateNeural": {"uri": "/jaxrs/neural/list/calculate/model/{modelFlag}/work/{workId}"},
+
+  "clazz": "x_query_assemble_surface"
+}

@@ -1,0 +1,98 @@
+{
+	"id": "",
+	"name": "",
+	"type": "Documenteditor",
+	"description": "",
+	"events": {
+		"queryLoad": {
+			"code": "",
+			"html": ""
+		},
+		"postLoad": {
+			"code": "",
+			"html": ""
+		},
+		"load": {
+			"code": "",
+			"html": ""
+		},
+		"click": {
+			"code": "",
+			"html": ""
+		},
+		"dblclick": {
+			"code": "",
+			"html": ""
+		},
+		"keydown": {
+			"code": "",
+			"html": ""
+		},
+		"keypress": {
+			"code": "",
+			"html": ""
+		},
+		"keyup": {
+			"code": "",
+			"html": ""
+		},
+		"mousedown": {
+			"code": "",
+			"html": ""
+		},
+		"mousemove": {
+			"code": "",
+			"html": ""
+		},
+		"mouseout": {
+			"code": "",
+			"html": ""
+		},
+		"mouseover": {
+			"code": "",
+			"html": ""
+		},
+		"mouseup": {
+			"code": "",
+			"html": ""
+		},
+		"focus": {
+			"code": "",
+			"html": ""
+		},
+		"blur": {
+			"code": "",
+			"html": ""
+		}
+	},
+	"defaultValue": {
+		"copies": "",
+		"secret":"",
+		"priority": "",
+		"redHeader": "文件红头",
+		"fileno":"[文号]",
+		"signerTitle": "签发人：",
+		"signer": "[签发人]",
+		"subject": "[文件标题]",
+		"mainSend": "[主送单位：]",
+		"filetext": "[请在此处编辑正文内容]",
+		"attachmentTitle":"附件：",
+		"attachment":"",
+		"issuanceUnit":"[发文机关]",
+		"issuanceDate":"[成文日期]",
+		"annotation":"",
+		"copytoTitle":"抄送：",
+		"copyto":"[抄送]",
+		"copyto2Title":"发：",
+		"copyto2":"[发]",
+		"editionUnit":"[印发机关]",
+		"editionDate":"[印发日期]",
+		"meetingAttendTitle": "出席：",
+		"meetingLeaveTitle": "请假：",
+		"meetingSitTitle": "列席：",
+		"meetingAttend": "",
+		"meetingLeave": "",
+		"meetingSit": ""
+	},
+	"container": ""
+}

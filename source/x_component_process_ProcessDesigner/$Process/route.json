@@ -1,0 +1,19 @@
+ {
+ 	"route": {
+		"id": "",
+		"process": "",
+		"activityType": "",
+		"name": "",
+		"alias": "",
+		"description": "",
+		"track": "",
+		"position": "",
+		"orderNumber": "",
+		"opinion": "",
+		"decisionOpinion": "",
+
+		"activity": "",
+		"createTime": "",
+		"sole": false
+	}
+}

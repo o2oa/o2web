@@ -1,0 +1,155 @@
+[
+  {
+    "type": "MWFToolBarButton",
+    "img": "close.png",
+    "title": "关闭工作",
+    "action": "closeWork",
+    "text": "关闭",
+    "id": "action_close",
+    "condition": "",
+    "read": true
+  },
+  {
+    "type": "MWFToolBarButton",
+    "img": "save.png",
+    "title": "保存工作",
+    "action": "saveWork",
+    "text": "保存",
+    "id": "action_saveData",
+    "control": "allowSave",
+    "condition": "",
+    "read": false
+  },
+  {
+    "type": "MWFToolBarButton",
+    "img": "submit.png",
+    "title": "继续流转文件",
+    "action": "processWork",
+    "text": "继续流转",
+    "id": "action_processWork",
+    "control": "allowProcessing",
+    "condition": "",
+    "read": false
+  },
+  {
+    "type": "MWFToolBarButton",
+    "img": "reroute.png",
+    "title": "调度",
+    "action": "rerouteWork",
+    "text": "调度",
+    "id": "action_reroute",
+    "control": "allowReroute",
+    "condition": "",
+    "read": true
+  },
+  {
+    "type": "MWFToolBarButton",
+    "img": "reset.png",
+    "title": "重置处理人",
+    "action": "resetWork",
+    "text": "重置处理人",
+    "id": "action_reset",
+    "control": "allowReset",
+    "condition": "",
+    "read": true
+  },
+  {
+    "type": "MWFToolBarButton",
+    "img": "split.png",
+    "title": "增加拆分分支",
+    "action": "addSplit",
+    "text": "增加分支",
+    "id": "action_split",
+    "control": "allowAddSplit",
+    "condition": "",
+    "read": true
+  },
+  {
+    "type": "MWFToolBarButton",
+    "img": "retract.png",
+    "title": "撤回",
+    "action": "retractWork",
+    "text": "撤回",
+    "id": "action_retract",
+    "control": "allowRetract",
+    "condition": "",
+    "read": true
+  },
+  {
+    "type": "MWFToolBarButton",
+    "img": "rollback.png",
+    "title": "回溯到指定的环节，不保留流程记录",
+    "action": "rollback",
+    "text": "流程回溯",
+    "id": "action_rollback",
+    "control": "allowRollback",
+    "condition": "",
+    "read": true
+  },
+  {
+    "type": "MWFToolBarButton",
+    "img": "del.png",
+    "title": "删除文件",
+    "action": "deleteWork",
+    "text": "删除文件",
+    "id": "action_delete",
+    "control": "allowDelete",
+    "condition": "",
+    "read": false
+  },
+  {
+    "type": "MWFToolBarButton",
+    "img": "print.png",
+    "title": "打印文件",
+    "action": "printWork",
+    "text": "打印",
+    "id": "action_print",
+    "control": "",
+    "condition": "",
+    "read": true
+  },
+  {
+    "type": "MWFToolBarButton",
+    "img": "press.png",
+    "title": "催促办理",
+    "action": "pressWork",
+    "text": "催促办理",
+    "id": "action_press",
+    "control": "allowPress",
+    "condition": "",
+    "read": true
+  },
+  {
+    "type": "MWFToolBarButton",
+    "img": "downloadAll.png",
+    "title": "一键下载",
+    "action": "downloadAll",
+    "text": "一键下载",
+    "id": "action_downloadAll",
+    "control": "",
+    "condition": "",
+    "read": true
+  }
+//  {
+//    "type": "MWFToolBarMenu",
+//    "img": "tool.png",
+//    "title": "管理工具",
+//    "action": "",
+//    "text": "工具",
+//    "id": "action_tools",
+//    "condition": "",
+//    "read": true,
+//    "sub": [
+//
+//    ]
+//  },
+//  {
+//    "type": "MWFToolBarSeparator",
+//    "img": "",
+//    "title": "",
+//    "action": "",
+//    "text": "",
+//    "condition": "",
+//    "read": true
+//  }
+]

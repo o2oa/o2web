@@ -1,0 +1,26 @@
+{
+  "standard": {
+    "name": "标准公文类",
+    "file": "standard.html",
+    "layouts": {
+    }
+  },
+  "meeting": {
+    "name": "纪要通报类",
+    "file": "meeting.html",
+    "layouts": {
+    }
+  },
+  "letter": {
+    "name": "函类",
+    "file": "letter.html",
+    "layouts": {
+    }
+  },
+  "empty": {
+    "name": "空模板（仅正文）",
+    "file": "empty.html",
+    "layouts": {
+    }
+  }
+}

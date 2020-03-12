@@ -1,0 +1,29 @@
+{
+  "listApplication": {"uri": "/jaxrs/portal/list"},
+  "getApplication": {"uri": "/jaxrs/portal/{id}"},
+
+
+  "listPage": {"uri": "/jaxrs/page/list/portal/{id}"},
+  "listSource": {"uri": "/jaxrs/source/list/portal/{id}"},
+  "listScript": {"uri": "/jaxrs/script/list/portal/{id}"},
+  "listMenu": {"uri": "/jaxrs/menu/list/portal/{id}"},
+  "listWidget": {"uri": "/jaxrs/widget/list/portal/{id}"},
+
+  "getPage": {"uri": "/jaxrs/page/{id}"},
+  "getPageMobile": {"uri": "/jaxrs/page/{id}/mobile"},
+  "getPageByName": {"uri": "/jaxrs/page/{name}/portal/{id}"},
+  "getPageByNameMobile": {"uri": "/jaxrs/page/{name}/portal/{id}/mobile"},
+  "getSource": {"uri": "/jaxrs/source/{id}"},
+  "getScript": {"uri": "/jaxrs/script/{id}"},
+  //"getScriptByName": {"uri": "/jaxrs/script/portal/{applicationId}/name/{name}"},
+  "getScriptByName": {"uri": "/jaxrs/script/portal/{portal}/name/{name}","method": "POST"},
+  "getMenu": {"uri": "/jaxrs/menu/{id}"},
+
+  "getWidget": {"uri": "/jaxrs/widget/{id}"},
+  "getWidgetMobile": {"uri": "/jaxrs/widget/{id}/mobile"},
+  "getWidgetByName": {"uri": "/jaxrs/widget/{name}/portal/{id}"},
+  "getWidgetByNameMobile": {"uri": "/jaxrs/widget/{name}/portal/{id}/mobile"},
+
+  "readFile": {"uri": "/jaxrs/file/{flag}/portal/{applicationFlag}/content"},
+  "listFile": {"uri": "/jaxrs/file/list/portal/{applicationFlag}"}
+}

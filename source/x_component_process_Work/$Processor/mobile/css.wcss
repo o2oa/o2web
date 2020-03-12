@@ -1,0 +1,300 @@
+{
+    "routeContainer" : {
+        "overflow" : "hidden"
+    },
+
+
+    "routeSelectorTile": {
+        "overflow": "hidden",
+        "height": "30px",
+        "line-height": "30px",
+        "font-size": "14px",
+        "font-weight": "bold",
+        "background-color": "#eeeeee",
+        "color": "#333",
+        "padding-left": "20px"
+    },
+    "routeSelectorArea": {
+        "overflow": "hidden",
+        "min-height": "40px",
+        "background-color": "#ffffff",
+        "padding": "0xp 20px"
+    },
+    "routeGroupNode" : {
+        "float" : "left",
+        "margin-left": "20px",
+        "padding-left" : "28px",
+        "color" : "#000",
+        "background-color": "#E3E3E3",
+        "min-height": "24px",
+        "line-height": "24px",
+        "margin-top": "8px",
+        "cursor": "pointer",
+        "background": "url(/x_component_process_Work/$Processor/process/route.png) no-repeat 5px center"
+    },
+    "routeGroupNode_over" : {
+        "background-color": "#E3E3E3",
+        "background": "url(/x_component_process_Work/$Processor/process/route.png) no-repeat 5px center"
+    },
+    "routeGroupNode_selected" : {
+        "background-color": "#E3E3E3",
+        "background": "url(/x_component_process_Work/$Processor/process/routegroup_selected.png) no-repeat 5px center"
+    },
+
+    "routeNode": {
+        "float": "left",
+        "margin-left": "20px",
+        "border-radius": "5px",
+        "height": "24px",
+        "line-height": "24px",
+        "margin-top": "8px",
+        "padding-left": "26px",
+        "padding-right": "8px",
+        "color" : "#000",
+        "background": "url(/x_component_process_Work/$Processor/process/nocheck.png) no-repeat 5px center",
+        "background-color": "#f0f0f0"
+    },
+    "routeNode_over" : {
+        "color" : "#000",
+        "background": "url(/x_component_process_Work/$Processor/process/nocheck.png) no-repeat 5px center",
+        "background-color": "#e6ecf8"
+    },
+    "routeNode_selected" : {
+        "color" : "#fff",
+        "background": "url(/x_component_process_Work/$Processor/process/checked.png) no-repeat 5px center",
+        "background-color": "#3296FA"
+    },
+
+    "routeOpinionTile": {
+        "overflow": "hidden",
+        "height": "30px",
+        "line-height": "30px",
+        "font-size": "14px",
+        "font-weight": "bold",
+        "background-color": "#eeeeee",
+        "color": "#333333",
+        "padding-left": "20px"
+    },
+    "routeOpinionArea": {
+        "height": "129px",
+        "border-bottom": "0px solid #6681a5",
+    },
+
+    "inputOpinionNode": {
+        "height": "129px",
+        "border-left": "0px solid #6681a5",
+        "border-right": "0px solid #6681a5",
+        "background-color": "#EEE"
+    },
+    "selectIdeaNode": {
+        "background-color": "#eee",
+        "max-height": "200px",
+        "clear": "both",
+        "overflow": "hidden"
+    },
+    "selectIdeaScrollNode": {
+        "max-height": "200px",
+        "overflow": "auto"
+    },
+    "selectIdeaItemNode": {
+        "line-height": "18px",
+        "font-size": "14px",
+        "cursor": "pointer",
+        "background-color": "#FFF",
+        "padding": "4px 4px 4px 4px",
+        "overflow": "hidden"
+    },
+    "selectIdeaItemNode_over": {
+        "background-color": "#e6ecf8"
+    },
+
+    "buttonsArea": {
+        "height": "50px",
+        "overflow": "hidden",
+        "clear": "both",
+        "margin-top": "10px"
+    },
+
+    "okButton": {
+        "width": "45%",
+        "height": "3em",
+        "float": "left",
+        "margin-left": "0.5em",
+        "color": "#ffffff",
+        "background": "#3296FA",
+        "border-radius": "5px",
+        "border": "1px solid #3296FA"
+    },
+    "okIconNode": {
+        "height": "3em",
+        "width": "3em",
+        "float": "left",
+        "background": "url("+"/x_component_process_Work/$Processor/default/ok-18.png) no-repeat center center",
+    },
+    "okTextNode": {
+        "font-size": "1em",
+        "margin-left": "3em",
+        "margin-right": "3em",
+        "line-height": "3em",
+        "text-align": "center"
+    },
+
+    "cancelButton": {
+        "width": "45%",
+        "height": "3em",
+        "float": "right",
+        "margin-right": "0.5em",
+        "background": "#ffffff",
+        "border-radius": "5px",
+        "border": "1px solid #dfdfdf"
+    },
+    "cancelIconNode": {
+        "height": "3em",
+        "width": "3em",
+        "float": "left",
+        "background": "url("+"/x_component_process_Work/$Processor/default/cancel-18.png) no-repeat center center",
+    },
+    "cancelTextNode": {
+        "font-size": "1em",
+        "color": "#191F25",
+        "margin-left": "3em",
+        "margin-right": "3em",
+        "line-height": "3em",
+        "text-align": "center"
+    },
+    "inputTextarea": {
+        "font-family": "Microsoft YaHei",
+        "border": "0px",
+        "overflow": "auto",
+        "width": "99%",
+        "height": "120px",
+        "padding": "3px",
+        "color": "#666",
+        "background": "#FFF"
+    },
+    "inputOpinionMediaActionArea": {
+        "position": "relative",
+        "height": "25px",
+        "line-height": "25px",
+        "top": "-30px",
+        "margin-right": "5px"
+    },
+
+    "inputOpinionHandwritingAction": {
+        "float": "right",
+        "overflow": "hidden",
+        "border": "1px solid #dddddd",
+        "border-radius": "3px",
+        "cursor": "pointer",
+        "padding-left": "24px",
+        "padding-right": "5px",
+        "margin-left": "5px",
+        "background": "url("+"/x_component_process_Work/$Processor/default/write.png) no-repeat 5px center"
+    },
+    "handwritingNode": {
+        "position": "absolute",
+        "background": "#ffffff"
+    },
+    "handwritingActionNode": {
+        "width": "70%",
+        "min-width": "100px",
+        "height": "3em",
+        "line-height": "3em",
+        "margin": "5px auto",
+        "border-radius": "5px",
+        "border": "1px solid #3296FA",
+        "background-color": "#3296FA",
+        "text-align": "center",
+        "color": "#ffffff",
+        "font-size": "16px"
+    },
+
+    "inputOpinionAudioRecordAction": {
+        "display": "none",
+        "float": "right",
+        "border": "1px solid #6681a5",
+        "border-radius": "3px",
+        "cursor": "pointer",
+        "padding-left": "24px",
+        "padding-right": "5px",
+        "margin-left": "5px",
+        "background": "url("+"/x_component_process_Work/$Processor/default/audioRecord.png) no-repeat 5px center"
+    },
+    "orgsTitle": {
+        "overflow": "hidden",
+        "height": "30px",
+        "line-height": "30px",
+        "font-size": "14px",
+        "font-weight": "bold",
+        "background-color": "#eeeeee",
+        "color": "#333",
+        "padding-left": "20px"
+    },
+    "routeOrgTable": {
+    },
+    "routeOrgTr" : {
+        "margin-bottom": "10px"
+    },
+    "routeOrgOddTd": {
+        "width": "50%"
+    },
+    "routeOrgEvenTd": {
+        "width": "50%",
+        "border-left": "5px solid #ffffff"
+    },
+
+    //    "selectIdeaNode": {
+    //        "background-color": "#eee",
+    //        "max-height": "200px",
+    //        "clear": "both",
+    //        "overflow": "hidden"
+    //    },
+    //    "selectIdeaScrollNode": {
+    //        "max-height": "200px",
+    //        "overflow": "auto"
+    //    },
+    //    "selectIdeaItemNode": {
+    //        "line-height": "18px",
+    //        "font-size": "14px",
+    //        "cursor": "pointer",
+    //        "background-color": "#FFF",
+    //        "padding": "4px 4px 4px 4px",
+    //        "overflow": "hidden"
+    //    },
+    //    "selectIdeaItemNode_over": {
+    //        "background-color": "#e6ecf8"
+    //    },
+
+    "selectorTitle": {
+        "padding": "0px 4px",
+        "height": "30px",
+        "line-height": "30px",
+        "font-size": "14px",
+        //        "font-weight": "bold",
+        "color": "#000",
+        "cursor" : "pointer",
+        "background": "url(/x_component_process_Work/$Processor/mobile/arrow_right2.png) no-repeat right 10px center",
+        "background-color" : "#fff"
+    },
+    "selectorTitle_over" : {
+        "background-color": "#e6ecf8"
+    },
+    "selectorTitleText": {
+//        "float": "left"
+    },
+    "selectorErrorNode" : {
+        //"float" : "right",
+        "background-color" : "#fff",
+        "margin-right" : "5px",
+        "font-weight" : "normal"
+    },
+    "selectorContent": {
+        "overflow": "hidden",
+        "background-color" : "#fff",
+        "padding" : "0px 5px 5px 5px"
+    },
+    "selectorContent_noItem": {
+        "padding" : "0px"
+    }
+
+}
