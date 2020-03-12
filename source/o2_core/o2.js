@@ -345,7 +345,7 @@
         "ckeditor5": ["/o2_lib/htmleditor/ckeditor5-12-1-0/ckeditor.js"],
         "raphael": ["/o2_lib/raphael/raphael.js"],
         "d3": ["/o2_lib/d3/d3.min.js"],
-        "ace": ["/o2_lib/ace/src-noconflict/ace.js","/o2_lib/ace/src-noconflict/ext-language_tools.js"],
+        "ace": ["/o2_lib/ace/src-min-noconflict/ace.js","/o2_lib/ace/src-min-noconflict/ext-language_tools.js"],
         "JSBeautifier": ["/o2_lib/JSBeautifier/beautify.js"],
         "JSBeautifier_css": ["/o2_lib/JSBeautifier/beautify-css.js"],
         "JSBeautifier_html": ["/o2_lib/JSBeautifier/beautify-html.js"],
