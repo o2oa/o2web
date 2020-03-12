@@ -96,7 +96,6 @@ var dev = [
     { "folder": "x_component_TeamWork", "tasks": ["move", "min"] },
     { "folder": "x_component_Weixin", "tasks": ["move", "min"] },
     { "folder": "x_desktop", "tasks": ["move", "min"] },
-    { "folder": "x_home", "tasks": ["move", "min"] }
 ];
 
 module.exports = dev;

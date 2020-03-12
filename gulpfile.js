@@ -135,7 +135,7 @@ function getAppTask(path, isMin, thisOptions) {
     }
 }
 
-var taskObj = {};
+//var taskObj = {};
 apps.map(function (app) {
     var isMin = (app.tasks.indexOf("min")!==-1);
     taskName = app.folder;
@@ -144,7 +144,7 @@ apps.map(function (app) {
 
     //var isMin = (app.tasks.indexOf("min")!==-1);
     taskName = app.folder+"_release";
-    appTasks.push(taskName);
+    //appTasks.push(taskName);
     gulp.task(taskName, getAppTask(app.folder, isMin, release_options));
 });
 
