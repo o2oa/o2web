@@ -2,8 +2,8 @@ stages:
   - build
   
 before_script:
-  - sudo npm install
-  - sudo npm i -g gulp-cli
+  - npm install
+  - npm i -g gulp-cli
 
 build:
   stage: build
