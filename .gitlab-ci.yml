@@ -1,6 +1,10 @@
 stages:
   - build
-  
+
+cache:
+  paths:
+    - node_modules/
+
 before_script:
   - npm install
   - npm i gulp-cli
@@ -8,4 +12,4 @@ before_script:
 build:
   stage: build
   script:
-    - npm build
+    - npm run-script build
