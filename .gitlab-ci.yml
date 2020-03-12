@@ -3,7 +3,7 @@ stages:
   
 before_script:
   - npm install
-  - npm i -g gulp-cli
+  - npm i gulp-cli
 
 build:
   stage: build
