@@ -4,6 +4,7 @@ stages:
 before_script:
   - apt-get update -qq && apt-get install -y -qq nodejs
   - npm install
+  - npm i -g gulp-cli
 
 build:
   stage: build
