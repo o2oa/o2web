@@ -2,7 +2,6 @@ stages:
   - build
   
 before_script:
-  - sudo yum install -y nodejs
   - sudo npm install
   - sudo npm i -g gulp-cli
 
