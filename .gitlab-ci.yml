@@ -1,0 +1,11 @@
+stages:
+  - build
+  
+before_script:
+  - apt-get update -qq && apt-get install -y -qq nodejs
+  - npm install
+
+build:
+  stage: build
+  script:
+    - npm build
